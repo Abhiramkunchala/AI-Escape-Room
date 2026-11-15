@@ -62,26 +62,22 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Abhiramkunchala/AI-Escape-Room.git
-```
 
 Navigate to the project folder:
 
 ```bash
 cd AI-Escape-Room
-```
 
 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-```
 
 Create a `.env` file and configure:
 
 ```env
 GEMINI_API_KEY=your_api_key
 GEMINI_MODEL=gemini-3.5-flash-lite
-```
 
 ## 7. Run the Application
 
@@ -89,13 +85,11 @@ Run Version 1:
 
 ```bash
 streamlit run version1.py
-```
 
 Run Version 2:
 
 ```bash
 streamlit run version2.py
-```
 
 ## 8. Game Objective
 
@@ -104,3 +98,9 @@ The objective is to solve three puzzles, collect the brass key, open the locked 
 ## 9. Development
 
 Version 1 was developed as the initial conversational prototype. Version 2 introduced structured game progress, inventory management and additional validation to improve the gameplay experience.
+
+## 10. Author
+
+AI Escape Room – Academic Project
+
+Developed as part of the course assignment on AI Escape Room and GitHub Portfolio.
