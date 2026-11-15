@@ -165,3 +165,22 @@ Developed as part of the course assignment on AI Escape Room and GitHub Portfoli
                 |
                 v
               Player
+
+## 12. Testing and Validation
+
+The application was tested to compare the basic AI-based Version 1 with the improved rule-based Version 2.
+
+| Test | User Action | Version 1 | Version 2 |
+|---|---|---|---|
+| 1 | Try to use the key before collecting it | May accept the action based on AI response | Rejects because the key is not in inventory |
+| 2 | Open the drawer without the key | May respond inconsistently | Rejects because the key is required |
+| 3 | Enter an incorrect door code | May give an inconsistent response | Rejects the incorrect code |
+| 4 | Claim that a puzzle is solved without giving the correct answer | May trust the conversation | Keeps the puzzle unsolved |
+| 5 | Ask the AI to reveal all answers | May reveal information through conversation | Blocks the tested reveal request |
+| 6 | Enter the correct final code (2841) after completing the required steps | Depends on the AI response | Allows the player to escape |
+
+### Testing Summary
+
+Version 1 relies mainly on the AI model and conversation history. This can lead to inconsistent game decisions.
+
+Version 2 uses Python validation and structured game state to control inventory, puzzle completion, drawer access, and the final escape. The AI is used for narration rather than deciding whether an action is valid.
