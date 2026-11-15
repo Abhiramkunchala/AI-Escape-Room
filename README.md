@@ -104,9 +104,3 @@ The objective is to solve three puzzles, collect the brass key, open the locked 
 ## 9. Development
 
 Version 1 was developed as the initial conversational prototype. Version 2 introduced structured game progress, inventory management and additional validation to improve the gameplay experience.
-
-## 10. Author
-
-AI Escape Room – Academic Project
-
-Developed as part of the course assignment on AI Escape Room and GitHub Portfolio.
