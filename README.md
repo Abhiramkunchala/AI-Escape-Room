@@ -104,3 +104,64 @@ Version 1 was developed as the initial conversational prototype. Version 2 intro
 AI Escape Room – Academic Project
 
 Developed as part of the course assignment on AI Escape Room and GitHub Portfolio.
+
+## 11. System Architecture
+
+### Version 1 – Basic AI Escape Room
+
+```text
+        Player
+          |
+          v
+   Streamlit Interface
+          |
+          v
+     User Input
+          |
+          v
+    Gemini AI Model
+          |
+          v
+   Game Logic Processing
+          |
+          v
+   Puzzle and Clue Response
+          |
+          v
+    Player Feedback
+
+   
+    ### Version 2 – Reliable AI Escape Room
+
+```text
+              Player
+                |
+                v
+       Streamlit Interface
+                |
+                v
+          Player Input
+                |
+                v
+       Python Game Logic
+                |
+        +-------+-------+
+        |       |       |
+        v       v       v
+     Puzzle  Inventory  Action
+    Tracking  Management Validation
+        |       |       |
+        +-------+-------+
+                |
+                v
+          Game State
+                |
+                v
+         Gemini AI API
+       (Story Narration)
+                |
+                v
+          Game Response
+                |
+                v
+              Player
